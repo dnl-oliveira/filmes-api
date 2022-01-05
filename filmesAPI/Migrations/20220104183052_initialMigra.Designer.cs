@@ -7,7 +7,7 @@ using filmesAPI.Data;
 
 namespace filmesAPI.Migrations
 {
-    [DbContext(typeof(FilmeContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20220104183052_initialMigra")]
     partial class initialMigra
     {
