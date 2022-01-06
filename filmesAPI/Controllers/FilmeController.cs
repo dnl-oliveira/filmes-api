@@ -1,4 +1,4 @@
-﻿using filmesApi.Services;
+﻿using filmesAPI.Services;
 using filmesAPI.Data.Dtos.Filme;
 using filmesAPI.Models;
 using FluentResults;
