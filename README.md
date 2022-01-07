@@ -1,6 +1,6 @@
 # Exemplo API REST com .NET 6
 
-API REST com todas operações básicas, (CRUD) e controle de usuários com Identity.
+API REST com todas operações básicas, (CRUD), controle de usuários com Identity e envio de e-mail de ativação de conta.
 
 ## Foi Utilizado
 
@@ -13,4 +13,6 @@ Swagger
 AutoMapper
 Fluent Results
 Identity
+MimeKit
+MailKit
 ```
