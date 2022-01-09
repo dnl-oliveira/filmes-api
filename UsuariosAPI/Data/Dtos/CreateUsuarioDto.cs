@@ -14,5 +14,7 @@ namespace UsuariosAPI.Data.Dtos
         [Required]
         [Compare("Password", ErrorMessage = "Senhas diferentes")]
         public string RePassword { get; set; }
+        [Required]
+        public DateTime DataNascimento { get; set; }
     }
 }
